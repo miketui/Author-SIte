@@ -105,8 +105,7 @@ fi
 
 log "Running claude doctor..."
 claude doctor || warn "claude doctor reported issues — review the output above"
-
-# ────────────────────────────────────────────────────────────
+ln -sf "../book-source/Final edits" "./Final edits"# ────────────────────────────────────────────────────────────
 # STEP 2 — REPO CLONE (DESTINATION + SOURCE) + REGISTRY NORMALIZE
 # ────────────────────────────────────────────────────────────
 
